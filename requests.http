@@ -1,0 +1,18 @@
+# GET page 1 on randomusers
+GET https://randomuser.me/api?results=2&page=1 HTTP/1.1
+
+###
+
+# POST ...
+POST https://jsonplaceholder.typicode.com/posts HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+}
+
+###
+
+GET http://127.0.0.1:5000 HTTP/1.1
